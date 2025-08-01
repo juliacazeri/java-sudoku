@@ -1,3 +1,8 @@
+package app;
+
+import model.Posicao;
+import model.Sudoku;
+
 import java.util.Scanner;
 
 public class SudokuApp{
@@ -10,7 +15,7 @@ public class SudokuApp{
         int opcao;
 
         do{
-            System.out.println("===== Menu Sudoku =====");
+            System.out.println("===== Menu model.Sudoku =====");
             System.out.println("1 - Iniciar um novo jogo.");
             System.out.println("2 - Colocar um novo número.");
             System.out.println("3 - Remover um número.");

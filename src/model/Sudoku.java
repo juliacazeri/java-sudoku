@@ -1,3 +1,5 @@
+package model;
+
 public class Sudoku{
     private Tabuleiro tabuleiro;
     private boolean iniciado = false;
